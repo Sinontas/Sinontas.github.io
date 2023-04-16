@@ -1,0 +1,9 @@
+@import url(style.css);
+
+body {
+    text-align: justify;
+}
+
+.info-section {
+    margin-top: 20px;
+}

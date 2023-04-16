@@ -1,0 +1,20 @@
+@import url(style.css);
+
+h2,
+h3 {
+  text-align: center;
+}
+
+p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-size: large;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+img {
+  width: 696.5px;
+  height: 211.5px;
+}

@@ -1,0 +1,11 @@
+@import url(style.css);
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2,
+h4 {
+    color: #333;
+}

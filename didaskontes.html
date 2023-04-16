@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="didaskontes_style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Διδάσκοντες</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #003366;">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="index.html">Πανεπιστήμιο Αιγαίου</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-collapse-1" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-white" href="index.html">Αρχική</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="didaskontes.html">Σελίδα Διδασκόντων
+                                με κατηγοριοποίηση Βαθμίδων</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="mathimata.html">Σελίδα Λίστας
+                                Μαθημάτων ανά εξάμηνο</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="news.html">Νέα & Ανακοινώσεις</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="info.html">Πληροφορίες Τμήματος</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="accordion">
+                    <!-- Πάνελ Ακαδημαϊκό Προσωπικό -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Ακαδημαϊκό Προσωπικό
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <table class="table">
+
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Όνομα</th>
+                                            <th scope="col">Επώνυμο</th>
+                                            <th scope="col">Email</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td><a href="vlachou.html">Ακριβή</a></td>
+                                            <td><a href="vlachou.html">Βλάχου</a></td>
+                                            <td>avlachou@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td><a href="vougioukas.html">Δημοσθένης</a></td>
+                                            <td><a href="vougioukas.html">Βουγιούκας</a></td>
+                                            <td>dvouyiou@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td><a href="gkoumopoulos.html">Χρήστος</a></td>
+                                            <td><a href="gkoumopoulos.html">Γκουμόπουλος</a></td>
+                                            <td>goumop@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td><a href="diamantopoulou.html">Βασιλική</a></td>
+                                            <td><a href="diamantopoulou.html">Διαμαντοπούλου</a></td>
+                                            <td>vdiamant@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td><a href="kavallieratou.html">Εργίνα</a></td>
+                                            <td><a href="kavallieratou.html">Καβαλλιεράτου</a></td>
+                                            <td>kavallieratou@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td><a href="kalligeros.html">Εμμανουήλ</a></td>
+                                            <td><a href="kalligeros.html">Καλλίγερος</a></td>
+                                            <td>kalliger@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">7</th>
+                                            <td><a href="kampourakhs.html">Γεώργιος</a></td>
+                                            <td><a href="kampourakhs.html">Καμπουράκης</a></td>
+                                            <td>gkamb@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">8</th>
+                                            <td><a href="kaporhs.html">Αλέξης</a></td>
+                                            <td><a href="kaporhs.html">Καπόρης</a></td>
+                                            <td>kaporisa@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">9</th>
+                                            <td><a href="karuda.html">Μαρία</a></td>
+                                            <td><a href="karuda.html">Καρύδα</a></td>
+                                            <td>mka@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">10</th>
+                                            <td><a href="kokolakhs.html">Σπύρος</a></td>
+                                            <td><a href="kokolakhs.html">Κοκολάκης</a></td>
+                                            <td>sak@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">11</th>
+                                            <td><a href="#">Γεώργιος</a></td>
+                                            <td><a href="#">Κορμέντζας</a></td>
+                                            <td>gkorm@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">12</th>
+                                            <td><a href="#">Γεώργιος</a></td>
+                                            <td><a href="#">Κοφινάς</a></td>
+                                            <td>gkofinas@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">13</th>
+                                            <td><a href="#">Κυριάκος</a></td>
+                                            <td><a href="#">Κρητικός</a></td>
+                                            <td>kkritikos@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">14</th>
+                                            <td><a href="#">Ελισάβετ</a></td>
+                                            <td><a href="#">Κωνσταντίνου</a></td>
+                                            <td>ekonstantinou@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">15</th>
+                                            <td><a href="#">Θεόδωρος</a></td>
+                                            <td><a href="#">Κωστούλας</a></td>
+                                            <td>theodoros.kostoulas@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">16</th>
+                                            <td><a href="#">Ασημάκης</a></td>
+                                            <td><a href="#">Λερός</a></td>
+                                            <td>aleros@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">17</th>
+                                            <td><a href="#">Ευριπίδης</a></td>
+                                            <td><a href="#">Λουκής</a></td>
+                                            <td>eloukis@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">18</th>
+                                            <td><a href="#">Λίλιαν</a></td>
+                                            <td><a href="#">Μήτρου</a></td>
+                                            <td>l.mitrou@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">19</th>
+                                            <td><a href="#">Κωνσταντίνος</a></td>
+                                            <td><a href="#">Μαλιάτσος</a></td>
+                                            <td>kmaliat@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">20</th>
+                                            <td><a href="#">Χάρης</a></td>
+                                            <td><a href="#">Μεσαριτάκης</a></td>
+                                            <td>cmesar@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">21</th>
+                                            <td><a href="#">Χαράλαμπος</a></td>
+                                            <td><a href="#">Σκιάνης</a></td>
+                                            <td>cskianis@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">22</th>
+                                            <td><a href="#">Δημήτριος</a></td>
+                                            <td><a href="#">Σκούτας</a></td>
+                                            <td>d.skoutas@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">23</th>
+                                            <td><a href="#">Ευστάθιος</a></td>
+                                            <td><a href="#">Σταματάτος</a></td>
+                                            <td>stamatatos@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">24</th>
+                                            <td><a href="#">Γεώργιος</a></td>
+                                            <td><a href="#">Στεργιόπουλος</a></td>
+                                            <td>g.stergiopoulos@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">25</th>
+                                            <td><a href="#">Παναγιώτης</a></td>
+                                            <td><a href="#">Συμεωνίδης</a></td>
+                                            <td>psymeon@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">26</th>
+                                            <td><a href="#">Γιάννης</a></td>
+                                            <td><a href="#">Χαραλαμπίδης</a></td>
+                                            <td>yannisx@aegean.gr</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Πάνελ Λοιποί Διδάσκοντες -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Λοιποί Διδάσκοντες
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <table class="table">
+
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Όνομα</th>
+                                            <th scope="col">Επώνυμο</th>
+                                            <th scope="col">Email</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td><a href="#">Χαράλαμπος</a></td>
+                                            <td><a href="#">Αλεξόπουλος</a></td>
+                                            <td>alexop@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td><a href="#">Γαλάτεια</a></td>
+                                            <td><a href="#">Καπελάκου</a></td>
+                                            <td>@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td><a href="#">Πρόδρομος</a></td>
+                                            <td><a href="#">Μακρής</a></td>
+                                            <td>pmakris@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td><a href="#">Βίκτωρ</a></td>
+                                            <td><a href="#">Νικολαΐδης</a></td>
+                                            <td>vnikola@aegean.gr</td>
+                                        </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Εργαστηριακό Προσωπικό -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="true" aria-controls="collapseThree">
+                                    Εργαστηριακό Προσωπικό
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <table class="table">
+
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Όνομα</th>
+                                            <th scope="col">Επώνυμο</th>
+                                            <th scope="col">Email</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td><a href="#">Αναστασία</a></td>
+                                            <td><a href="#">Δούμα</a></td>
+                                            <td>sia@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td><a href="#">Χριστίνα</a></td>
+                                            <td><a href="#">Θεοχαροπούλου</a></td>
+                                            <td>chtheo@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td><a href="#">Ειρήνη</a></td>
+                                            <td><a href="#">Καρύμπαλη</a></td>
+                                            <td>karybali@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td><a href="#">Ευτυχία</a></td>
+                                            <td><a href="#">Λάνδρου</a></td>
+                                            <td>elandrou@aegean.gr</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td><a href="#">Γιώργος</a></td>
+                                            <td><a href="#">Χρυσολωράς</a></td>
+                                            <td>george@aegean.gr</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ερευνητικό Προσωπικό -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour">
+                                    Ερευνητικό Προσωπικό
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                <table class="table">
+
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Όνομα</th>
+                                            <th scope="col">Επώνυμο</th>
+                                            <th scope="col">Email</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

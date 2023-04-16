@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="endiktiko_style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Τμήμα Μηχανικών Πληροφοριακών και Επικοινωνιακών Συστημάτων</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #003366;">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="index.html">Πανεπιστήμιο Αιγαίου</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-collapse-1" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-white" href="index.html">Αρχική</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="didaskontes.html">Σελίδα Διδασκόντων
+                                με κατηγοριοποίηση Βαθμίδων</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="mathimata.html">Σελίδα Λίστας
+                                Μαθημάτων ανά εξάμηνο</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="news.html">Νέα & Ανακοινώσεις</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="info.html">Πληροφορίες Τμήματος</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h2 class="mb-3">Εισαγωγή σε VLSI</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Πληροφορίες Μαθήματος</h4>
+                <ul>
+                    <li><strong>Κωδικός Μαθήματος:</strong> 321-8752</li>
+                    <li><strong>Εξάμηνο:</strong> 8</li>
+                    <li><strong>ECTS:</strong> 5</li>
+                    <li><strong>Ώρες (Θεωρία):</strong> 3</li>
+                    <li><strong>Ώρες (Εργαστηρίο):</strong> 2</li>
+                    <li><strong>Διδάσκοντας:</strong> Καλλίγερος Εμμανουήλ</li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <h4>Ύλη μαθήματος</h4>
+                <p style="text-align: justify;">
+                    Εισαγωγή: MOS τρανζίστορ, CMOS λογική, βασικές πύλες και στοιχεία μνήμης, κατασκευή CMOS κυκλωμάτων,
+                    σχεδίαση σε επίπεδο layout. Θεωρία των MOS τρανζίστορ: ιδανικές I-V χαρακτηριστικές, C-V
+                    χαρακτηριστικές, μη ιδανικά I-V φαινόμενα, DC χαρακτηριστικές μεταφοράς. Εκτίμηση της καθυστέρησης
+                    ενός κυκλώματος: το μοντέλο καθυστέρησης RC, το γραμμικό μοντέλο καθυστέρησης – η τεχνική του
+                    Logical Effort (για ένα επίπεδο ενός κυκλώματος αλλά και για μονοπάτια), προσδιορισμός του μεγέθους
+                    των τρανζίστορ (transistor sizing). Κατανάλωση ισχύος: δυναμική κατανάλωση, στατική κατανάλωση,
+                    βελτιστοποίηση ενέργειας-καθυστέρησης, σχεδίαση κυκλωμάτων με χαμηλή κατανάλωση ισχύος. Γραμμές
+                    διασύνδεσης: γεωμετρία, επίπεδα μετάλλου, μοντελοποίηση, καθυστέρηση, κατανάλωση ισχύος, θόρυβος,
+                    αξιόπιστη σχεδίαση των γραμμών διασύνδεσης. Αποκλίσεις λόγω κατασκευής και περιβάλλοντος. Κλιμάκωση.
+                    Θέματα σχεδίασης συνδυαστικών κυκλωμάτων: οικογένειες κυκλωμάτων, πιθανά προβλήματα που προκύπτουν
+                    κατά τη σχεδίαση. Θέματα σχεδίασης ακολουθιακών κυκλωμάτων: σχεδίαση μανδαλωτών (latches) και
+                    flip-flop, περιορισμοί μέγιστης καθυστέρησης, περιορισμοί ελάχιστης καθυστέρησης, δανεισμός χρόνου
+                    (time borrowing), clock skew. Μνήμες ημιαγωγών.
+                </p>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    <h4>Επιδιωκόμενα μαθησιακά αποτελέσματα</h4>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <p style="text-align: justify;">
+                                    Οι φοιτητές που ολοκληρώνουν επιτυχώς το μάθημα θα έχουν επιδείξει:
+                                </p>
+                                <ul style="text-align: justify;">
+                                    <li>Ικανότητα να σχεδιάζουν στατική συνδυαστική και ακολουθιακή λογική
+                                        τεχνολογίας CMOS τόσο σε επίπεδο τρανζίστορ, όσο και σε επίπεδο φυσικού
+                                        σχεδιασμού (layout).</li>
+                                    <li>Ικανότητα να περιγράφουν τα γενικά βήματα κατασκευής ολοκληρωμένων
+                                        κυκλωμάτων CMOS.</li>
+                                    <li>Ικανότητα να κατανοούν την ακριβή (μη ιδανική) συμπεριφορά των τρανζίστορ
+                                        επίδρασης πεδίου MOS.</li>
+                                    <li>Ικανότητα να υπολογίζουν και να βελτιστοποιούν την καθυστέρηση συνδυαστικών
+                                        κυκλωμάτων, χρησιμοποιώντας RC μοντέλα καθυστέρησης και την τεχνική του
+                                        logical effort.</li>
+                                    <li>Ικανότητα να εκτιμούν και να βελτιστοποιούν την καθυστέρηση και την επίδραση
+                                        του θορύβου σε γραμμές διασύνδεσης.</li>
+                                    <li>Ικανότητα προσδιορισμού των διαφόρων ειδών κατανάλωσης ισχύος σε VLSI
+                                        κυκλώματα, καθώς και μεθόδων για τη μείωσή της.</li>
+                                    <li>Ικανότητα σχεδιασμού για υψηλότερες επιδόσεις ή μικρότερη επιφάνεια
+                                        χρησιμοποιώντας διάφορες οικογένειες κυκλωμάτων.</li>
+                                    <li>Ικανότητα να προσδιορίζουν και να αποφεύγουν τα πιο συχνά σχεδιαστικά
+                                        σφάλματα σε κυκλώματα CMOS.</li>
+                                    <li>Ικανότητα να προσδιορίζουν και να συγκρίνουν τα υπέρ και τα κατά των
+                                        διάφορων ακολουθιακών στοιχείων όπως flip-flop, μανδαλωτών και μανδαλωτών με
+                                        μικρό παλμό (pulsed latches).</li>
+                                    <li>Ικανότητα να κατανοούν και να υπολογίζουν τους περιορισμούς μέγιστης
+                                        καθυστέρησης, ελάχιστης καθυστέρησης καθώς και το δανεισμό χρόνου (time
+                                        borrowing) για ακολουθιακά κυκλώματα που υλοποιούνται με οποιοδήποτε από τα
+                                        ακολουθιακά στοιχεία που αναφέρθηκαν παραπάνω.</li>
+                                    <li>Ικανότητα να περιγράφουν τα αίτια και τα αποτελέσματα του φαινομένου του
+                                        clock skew.</li>
+                                    <li>Ικανότητα να σχεδιάζουν ολοκληρωμένα κυκλώματα και να αξιολογούν τις
+                                        επιδόσεις τους με χρήση εργαλείων CAD (Computer Aided Design).</li>
+                                    <li>Ικανότητα να περιγράφουν τη δομή και τη λειτουργία μνημών ημιαγωγών.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="true" aria-controls="collapseTwo">
+                                    <h4>Μέθοδοι αξιολόγησης / βαθμολόγησης</h4>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p style="text-align: justify;">
+                                    Ασκήσεις για το σπίτι (30%), Εργασία (30%), Γραπτή εξέταση (40%)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
